@@ -1,0 +1,21 @@
+{
+    "name": "lacrossefootwear/dependabot-artifact-repo",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Matthew Wells",
+            "email": "mwells@lacrossefootwear.com"
+        }
+    ],
+    "repositories": [{
+        "type": "artifact",
+        "url": "./artifacts"
+    }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^9"
+    },
+    "require": {
+        "test/artifact-dep": "^1.0"
+    }
+}
